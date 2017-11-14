@@ -51,7 +51,7 @@
 
 			</div>			
 		</footer>			
-
+ 
 			<?php
 				//if the button Confirm Register is clicked
 				if(isset($_POST['addCustomer_btn'])){ //EDIT THIS NEXT -> CUSTOMER register/sign-up
@@ -65,15 +65,23 @@
 					$emailAddress = $_POST['emailAddress'];
 					$type="2";
 
-					// if passwords are equal
-					if($password!=$cpassword){
+				
+                    $query="select userid from usertb where username='{$username}'";
+                   $query_run = mysqli_query($con,$query);
+                    if ($query_run){
+                   echo '<script type="text/javascript"> alert("Username already exist!")</script>';
+        }
+                    	// if passwords are equal
+					else if($password!=$cpassword){
                      echo '<script type="text/javascript"> alert("Passwords does not match")</script>';   
                     }
+                
                     //if contact number is not numeric
                     else if(!is_numeric($contactNo)){
                         
                          echo '<script type="text/javascript"> alert("Contact Number must be numeric")</script>';  
                     }
+                    //if invalid email format
                     else if (!filter_var($emailAddress,FILTER_VALIDATE_EMAIL)){
                         echo '<script type="text/javascript"> alert("Invalid Email Address!")</script>'; 
                         
