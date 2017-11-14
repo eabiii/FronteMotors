@@ -15,7 +15,7 @@
 				<label><b><h2>Add Customer</h2></b></label><br>
 				
 				<label><b>Username:</b></label><br>
-				<input name="username" type="text" class="inputvalues" value="<?php echo $userID ?>" readonly><br><br>
+				<input name="username" type="text" class="inputvalues" placeholder="Type Username" required><br><br>
 
 				<label><b>Password:</b></label><br>
 				<input name="password" type="password" class="inputvalues" placeholder="Type Password" required/><br><br>
@@ -66,7 +66,19 @@
 					$type="2";
 
 					// if passwords are equal
-					if($password==$cpassword){
+					if($password!=$cpassword){
+                     echo '<script type="text/javascript"> alert("Passwords does not match")</script>';   
+                    }
+                    //if contact number is not numeric
+                    else if(!is_numeric($contactNo)){
+                        
+                         echo '<script type="text/javascript"> alert("Contact Number must be numeric")</script>';  
+                    }
+                    else if (!filter_var($emailAddress,FILTER_VALIDATE_EMAIL)){
+                        echo '<script type="text/javascript"> alert("Invalid Email Address!")</script>'; 
+                        
+                    }
+                    else{
 
 							$query="insert into usertb (FirstName, LastName, ContactNo, emailAddress, Username, Password, Type) values('$firstName','$lastName','$contactNo','$emailAddress','$username','$password','$type')";
 							$query_run = mysqli_query($con,$query);
@@ -85,10 +97,8 @@
 
 
 					}
-					//if passwords are not the same
-					else{
-						echo '<script type="text/javascript"> alert("Passwords does not match")</script>';
-					}
+					
+					
 	
 
 				}
