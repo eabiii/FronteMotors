@@ -4,7 +4,6 @@
 
 ?>
 
-
 				<br><br><br><br><br>
 				<center><label><b><h2>List of Vehicles and their Owners</h2></b></label><br></center>
 
