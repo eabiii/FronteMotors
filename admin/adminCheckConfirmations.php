@@ -27,18 +27,18 @@
 				<tbody>
 					<?php
 						$num = 0;
-						while($num < 2/* $row2=mysqli_fetch_assoc($result2) */){
+						while($row2=mysqli_fetch_assoc($result2) ){
 					?>
 						<tr>
 
-							<td style="width:150px !important;">KKK-888<?php // echo $row2['plateNo']; ?></td>
-							<td style="width:150px !important;">Change Oil<?php //echo $row2['serviceName']; ?></td>
+							<td style="width:150px !important;"><?php  echo $row2['plateNo']; ?></td>
+							<td style="width:150px !important;"> <?php echo $row2['serviceName']; ?></td>
 							<td style="width:150px !important;">
-								Nov-15-2017
+								
 								<?php
 									$num = $num +1;
-									//$var=$row2['dateIn'];
-									//echo date( "M-d-Y", (strtotime($var) + 259200));
+									$var=$row2['dateIn'];
+									echo date( "M-d-Y", (strtotime($var) + 259200));
 								?>
 							</td>
 							<td style="width:150px !important;">
