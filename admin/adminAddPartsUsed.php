@@ -53,7 +53,7 @@ $result = mysqli_query($con, $sql) or die("Error " . mysqli_error($con));
 	                <br><br><br>
 					<input name="submit_btn" type="submit" id="submit_btn" value="Submit"/><br><br>
 					
-					<a href="adminAddTransaction.php"><input type="button" id="btnBack" value="Go Back"/></a>
+					<a href="adminUpdateServices.php"><input type="button" id="btnBack" value="Go Back"/></a>
 
 				</center>
 
