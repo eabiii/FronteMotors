@@ -182,8 +182,8 @@ div.tab button.active {
 }
 </style>
 <form class="myform" action="#" method="POST">
-			<center><label><b><h2>Vechile History</h2></b></label></center>
-			<label><b>Select Vechile:</b></label><br>
+			<center><label><b><h2>Vehicle History</h2></b></label></center>
+			<label><b>Select Vehicle:</b></label><br>
 						<select name="plateNum"   id="car" class="inputvalues"	required>
 								<option></option>
 							<?php
