@@ -1,0 +1,502 @@
+
+.avatar{
+/*	//width:300px;*/
+	text-align:center;
+
+}
+.myform{
+	width:450px;
+	margin:50 auto;
+	margin-bottom: 25px !important;
+	position: center;
+}
+.inputvalues{
+	width:430px;
+	margin:0 auto;
+	padding:5px;
+}
+.myform2{
+	width:850px;
+	margin:50 auto;
+	margin-bottom: 25px !important;
+	position: center;
+}
+
+body{
+	font-family: 'Arial', sans-serif;
+	background-color: white;
+}
+div{
+	position: relative;
+}
+#pic1{
+  min-height:400px;
+  background: no-repeat 0 -170px;
+  text-align:center;
+  color:#ffffff;
+}
+.pic2{
+	width:350px;
+	text-align:right;
+}
+.pic3{
+	width:400px;
+	text-align:right;
+}
+.pic4{
+	width:300px;
+	text-align:center;
+}
+#navA{
+	position: absolute;
+	left:50%;
+	top:0;
+	margin-left:-700px;
+	list-style: none;
+
+	/* SENT BY KYLA
+	position: absolute;
+	top:0;
+	list-style: none;
+	text-align:center;
+	width:100%;
+	*/
+}
+#navM{
+	position: absolute;
+	left:50%;
+	top:0;
+	margin-left:-570px;
+	list-style: none;
+
+	/* SENT BY KYLA
+	position: absolute;
+	top:0;
+	list-style: none;
+	text-align:center;
+	width:100%;
+	*/
+
+}
+#navC{
+	position: absolute;
+	left:5z0%;
+	top:0;
+	margin-left:-290px;
+	list-style: none;
+
+	/* SENT BY KYLA
+	position: absolute;
+	top:0;
+	list-style: none;
+	text-align:center;
+	width:100%;
+	*/
+
+}
+/*ul{
+	margin:0px; padding:0px;
+}*/
+/*ul li a {
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+ul li{
+	float:left;
+	background-color: #cc0000;
+	font-size:18px;
+	line-height:40px;
+	text-align: center;
+	opacity: 30;
+	font-weight: bold;
+
+}
+ul li a:hover{
+	background-color: grey;
+}
+
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display: inline-block;
+}*/
+
+/*Buttons*/
+#submit_btn{
+	background-color: navy;
+	padding:5px;
+	color:white;
+	width:20%;
+	text-align:center;
+	font-size:14px;
+	font-weight: bold;
+}
+#logout_btn{
+	background-color: red;
+	padding:5px;
+	color:white;
+	width:20%;
+	text-align:center;
+	font-size:14px;
+	font-weight: bold;
+}
+#btnBack{
+	background-color: red;
+	padding:5px;
+	color:white;
+	width:35%;
+	text-align:center;
+	font-size:14px;
+	font-weight: bold;
+}
+#addCustomer_btn{
+	background-color: navy;
+	padding:5px;
+	color:white;
+	width:35%;
+	text-align:center;
+	font-size:14px;
+	font-weight: bold;	
+}
+#registerVehicle_btn{
+	background-color: navy;
+	padding:5px;
+	color:white;
+	width:35%;
+	text-align:center;
+	font-size:14px;
+	font-weight: bold;	
+}
+#addMechanic_btn{
+	background-color: navy;
+	padding:5px;
+	color:white;
+	width:35%;
+	text-align:center;
+	font-size:14px;
+	font-weight: bold;		
+}
+#removeMechanic_btn{
+	background-color: navy;
+	padding:5px;
+	color:white;
+	width:35%;
+	text-align:center;
+	font-size:14px;
+	font-weight: bold;		
+}
+#addService_btn{
+	background-color: navy;
+	padding:5px;
+	color:white;
+	width:35%;
+	text-align:center;
+	font-size:14px;
+	font-weight: bold;		
+}
+#addProblem_btn{
+	background-color: navy;
+	padding:5px;
+	color:white;
+	width:35%;
+	text-align:center;
+	font-size:14px;
+	font-weight: bold;		
+}
+/*Icons*/
+.adminIcon{
+	width:100px;
+	text-align:center;
+}
+.mechanicIcon{
+	width:100px;
+	text-align:center;
+}
+
+/*Footer*/
+.footer{
+	width:100%;
+	float: center;
+	background: red;
+	height:90px;
+}
+#footer_text{
+
+	color:white;
+	font-size: 10px;	
+}
+/*------------------new--------------------------------- */
+	.myform2{
+		width:450px;
+		margin:50 auto;
+		position: center;
+	}
+	.myform2 h2{
+		margin-bottom: 5px !important;
+		font-size: 30px;
+	}
+.inputvalues2{
+	width:130px;
+	margin:0 auto;
+	padding:5px;
+	margin:2px;
+	text-align: center;
+}
+
+.inputvalues3{
+	width:200px;
+	margin:0 auto;
+	padding:5px;
+	margin:2px;
+	text-align: center;
+}
+.inputvalues4{
+	width:50px;
+	margin:0 auto;
+	padding:5px;
+	margin:2px;
+	text-align: center;
+}
+	.table1{
+		padding:5px;
+	}
+	.table2 td{
+		padding:5px;
+		text-align: center;
+		font-weight: bold;
+		width:100px;
+	}
+	.doubletable
+	{
+		width:600px;
+	}
+	.table3 th{
+		padding:5px;
+		text-align: center;
+		font-weight: bold;
+		width:50px;
+	}
+	.table3 td{
+		text-align: center;
+	}
+	.table3 tr td:first-child{
+		font-weight: bold;
+	}
+	.table4 th{
+		padding:5px;
+		text-align: center;
+		font-weight: bold;
+		width:50px;
+	}
+	.table4 td{
+		text-align: center;
+	}
+	.table4 tr td:first-child{
+		font-weight: bold;
+	}
+	.table5 td{
+		padding:5px;
+		text-align: center;
+		font-weight: bold;
+		width:500px;
+	}
+	.table6 th{
+		padding:5px;
+		text-align: center;
+		font-weight: bold;
+		width:50px;
+	}
+	.table6 td{
+		text-align: center;
+	}
+	.table6 tr td:first-child{
+		font-weight: bold;
+	}
+	.table7 td{
+		padding:5px;
+		text-align: center;
+		font-weight: bold;
+		width:150px;
+	}
+	.btn-success
+	{
+		background-color:green;
+		padding: 5px;
+		color:white;
+		font-size:14px;
+		border-radius: 5px;
+		border-color: green;
+		margin-bottom:5px; 
+	}
+	.btn-danger
+	{
+		background-color:red;
+		padding: 5px;
+		color:white;
+		font-size:14px;
+		border-radius: 5px;
+		border-color: red;
+	}
+	#addHere{
+
+		margin-left: 17px;
+	}
+	#addHere input[type="text"]{
+		/*margin-left: 5px;*/
+	}
+	.confirmtransac{
+		 overflow: hidden;
+    margin-left:50px;
+    margin-right:50px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+	}
+	.service{
+			 overflow: hidden;
+    margin-left:50px;
+    margin-right:50px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+	}
+	.service td{
+		text-align: center;
+		padding: 5px;
+	}
+	.info{
+		float: left; 
+		text-align: center;
+		width:100%;
+	}
+	.info input[type="text"]{
+		margin-left: 5px;
+		font-size:18px;
+		border:0px;
+		width: 100px;
+		
+	}
+	.fluids{
+	float: left; 
+		text-align: center;
+		width:100%;
+ 
+	}
+	.fluids input[type="text"]{
+		margin-left: 5px;
+		font-size:18px;
+		border:0px;
+		width: 50px;
+	
+		
+	}
+	.hoses{
+		float: left; 
+		text-align: center;
+		width:100%;
+	
+	}
+	.hoses input[type="text"]{
+		margin-left: 5px;
+		font-size:18px;
+		border:0px;
+		width: 50px;
+
+		line-height: 5px;
+	}
+	.others{
+		float: left; 
+		text-align: center;
+		width:100%;
+	
+	}
+	.others input[type="text"]{
+		margin-left: 5px;
+		font-size:18px;
+		border:0px;
+		width: 50px;
+
+	}
+	./*basicSErvice{
+		text-align: center;
+	}
+	.basicSErvice table
+	{
+		margin-left: 300px;
+		width:800px;
+		 font-family: arial, sans-serif;
+    border-collapse: collapse;
+
+	}
+	.basicSErvice td{
+		text-align: center;
+		 border: 1px solid #dddddd;
+    padding: 8px;
+	}
+	.basicSErvice th{
+		text-align: center;
+		border: 1px solid #dddddd;
+	    padding: 8px;
+	}
+	.basicSErvice tr:nth-child(even) {
+    background-color: #dddddd;
+	}*/
+	.confirmtransac label{
+		font-weight: bold;
+		font-size: 18px;
+	}
+	#example2{
+		 font-family: arial, sans-serif;
+    	border-collapse: collapse;
+
+	}
+	#example2 td{
+		text-align: center;
+		 border: 1px solid #000;
+    padding: 8px;
+    }
+    #example2 th{
+    	text-align: center;
+		border: 1px solid #000;
+	    padding: 8px;
+    }
+	#example{
+		 font-family: arial, sans-serif;
+    	border-collapse: collapse;
+
+	}
+	#example td{
+		text-align: center;
+		 border: 1px solid #dddddd;
+    padding: 8px;
+    }
+    #example th{
+    	text-align: center;
+		border: 1px solid #dddddd;
+	    padding: 8px;
+    }
+    #example a{
+		text-decoration:none;
+		color:white;
+	
+    }
+    #example tr:nth-child(even) {
+    background-color: #dddddd;
+	}
+    .btn-submit
+	{
+		background-color:blue;
+		padding: 5px;
+		color:white;
+		font-size:14px;
+		border-radius: 5px;
+		border-color: blue;
+		margin-bottom:5px; 
+	}
+
+	.dates{
+		width:300px !important;
+	}
+	/*------------------new--------------------------------- */

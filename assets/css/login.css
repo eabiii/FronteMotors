@@ -1,0 +1,140 @@
+.wrapper{
+	width:1500px;
+	background:#eee;
+	margin: 0 auto 0 auto;
+
+}
+body{
+	background: white;
+	margin: 0px;
+	padding:0px;
+	height:1000px;
+}
+#main_container{
+	height: 480px; /*distance of text to the pic*/
+	position: relative;
+	display: block;
+}
+#header{
+	width:100%;
+	height: 92px;
+	background: red;
+	box-shadow: 2px 2px 2px 2px;
+	box-shadow: 0px 1px 8px 2px;
+	position: relative;
+}
+#logo{
+	color:white;
+	font-size: 45px;
+	line-height: 30px;
+	font-family: arial;
+	position: relative;
+	font-weight: bold;
+	left:80px;
+	top:30px;
+
+}
+.login_form{
+	float: right;
+	color:white;
+	position: relative;
+	right: 100px;
+	top:-10px;
+}
+#pic1{
+  min-height:400px;
+  background:url('pic1.jpg') no-repeat 0 -170px;
+  text-align:center;
+  color:#ffffff;
+}
+.pic2{
+	width:350px;
+	text-align:right;
+}
+.pic3{
+	width:400px;
+	text-align:right;
+}
+.pic4{
+	width:300px;
+	text-align:center;
+}
+.footer{
+	width:100%;
+	float: center;
+	background: red;
+	height:90px;
+}
+#footer_text{
+
+	color:white;
+	font-size: 10px;	
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%; /*width of what we do*/
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+
+/*For all the text*/
+body{ 
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:white;/*#f4f4f4 - background color of all */
+}
+
+/* Global */ /*For all the text*/
+.container{
+  width:90%; /*margin of the text*/
+  margin:auto;
+  overflow:hidden;
+}
+
+.dark{
+  padding:10px;
+  background:white;
+  color:black;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+
+
+
+/* Showcase */
+
+
+
+/* Newsletter */
+
+
+/* Boxes */
+
+
+/* Sidebar */
+
+
+/* Main-col */
+
+
+/* Services */
+
+
+/* Media Queries */
+
+}
