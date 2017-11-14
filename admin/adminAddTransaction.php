@@ -24,7 +24,7 @@
 				</tr>
 				<tr>
 					<td><b>Branch:</b></td>
-					<td><input name="branch" class="inputvalues2" type="text"/><br></td>
+					<td><input name="branch" class="inputvalues2" type="text" required="required"/><br></td>
 				</tr>
 					<td>
 						<label><b>Date In:</b></label>
@@ -176,7 +176,7 @@
 				<table class="table7">
 					<tr>
 						<td>Special Instructions:</td>
-						<td><input type="text" class="inputvalues3" name="specialInstructions"/></td>
+						<td><input type="text" class="inputvalues3" name="specialInstructions" required="required"/></td>
 					</tr>
 					<tr>
 						<td><label for="concerns1">Problems/Concerns:</label></td>
@@ -195,7 +195,7 @@
 					</tr>
 					<tr>
 						<td>Other Informations:</td>
-						<td><input type="text" class="inputvalues3" name="otherInfo"/></td>
+						<td><input type="text" class="inputvalues3" name="otherInfo" required="required"/></td>
 					</tr>
 				</table>
 				<br>
