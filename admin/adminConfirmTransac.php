@@ -112,7 +112,11 @@ function openCity(evt, cityName) {
 	</div>
 
 	<div id="fluids" class="fluids tabcontent">
-			<center><h3>Fluids:</h3></center>
+        <center>
+                <h3>Fluids:</h3>
+                <h3>Legend:</h3>
+                <h3>F= Full L= Low G= Good R= Replace</h3>
+        </center>
 	<label>Oil:</label><input type="text"  readonly="readonly" value="<?php echo $row['oil'];?>"></br>
 	<label>Brakes:</label><input type="text"  readonly="readonly" value="<?php echo $row['brakes'];?>"></br>
 	<label>Coolant:</label><input type="text"  readonly="readonly" value="<?php echo $row['coolant'];?>"></br>
@@ -121,7 +125,11 @@ function openCity(evt, cityName) {
 	</div>
 
 	<div id="hoses" class="hoses tabcontent">
-			<center><h3>Belts & Hoses :</h3></center>
+        <center>
+                <h3>Belts & Hoses :</h3>
+                <h3>Legend:</h3>
+                <h3>F= Full L= Low G= Good R= Replace</h3>
+        </center>
 	<label>Aircon:</label><input type="text"  readonly="readonly" value="<?php echo $row['aircon'];?>"></br>
 	<label>Alternator:</label><input type="text"  readonly="readonly" value="<?php echo $row['alternator'];?>"></br>
 	<label>Power Steering:</label><input type="text"  readonly="readonly" value="<?php echo $row['powerSteering'];?>"></br>
@@ -129,7 +137,11 @@ function openCity(evt, cityName) {
 	<label>Radiator Hose:</label><input type="text"  readonly="readonly" value="<?php echo $row['radiatorHose'];?>"></br>
 	</div>
 	<div id="others" class="others tabcontent">
-	<center><h3>Others:</h3></center>
+	   <center>
+        <h3>Others:</h3>
+        <h3>Legend:</h3>
+        <h3>F= Full L= Low G= Good R= Replace</h3>
+       </center>
 	<label>Battery test:</label><input type="text"  readonly="readonly" value="<?php echo $row['batteryTest'];?>"></br>
 	<label>Brake Pads:</label><input type="text"  readonly="readonly" value="<?php echo $row['brakePads'];?>"></br> 
 	<label>Air Cleaner:</label><input type="text"  readonly="readonly" value="<?php echo $row['airCleaner'];?>"></br>
